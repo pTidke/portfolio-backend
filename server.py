@@ -18,7 +18,7 @@ load_dotenv()
 
 # Configure PostHog
 POSTHOG_KEY = os.getenv("POSTHOG_API_KEY")
-POSTHOG_HOST = os.getenv("POSTHOG_HOST", "https://app.posthog.com")
+POSTHOG_HOST = os.getenv("POSTHOG_HOST", "https://us.i.posthog.com")
 
 if POSTHOG_KEY:
     posthog.project_api_key = POSTHOG_KEY
@@ -49,6 +49,7 @@ async def custom_rate_limit_handler(request, exc):
 # 4️⃣ CORS configuration
 # ------------------------------------------------------------
 origins = [o.strip() for o in os.getenv("CORS_ALLOW_ORIGINS", "*").split(",")]
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
