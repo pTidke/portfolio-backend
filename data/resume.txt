@@ -1,0 +1,98 @@
+Prajwal's first and the earliest Job was as Senior Data Engineer at LTIMindtree in Pune India
+Duration of this job was Jul 2020 – Oct 2023 and his client was Carrier Global
+
+Overview
+Led engineering and modernization for Carrier Global’s enterprise data warehouse. Responsibilities included designing and optimizing ETL pipelines, migrating workloads to the cloud, enforcing governance, and coordinating with stakeholders across business and IT.
+
+Global Data Warehouse
+• Developed centralized ETL in SAP BODS integrating SAP ECC, HANA, Oracle, SQL Server, and flat files.
+• Implemented robust error handling, restartability, and validation routines across pipelines.
+• Administered BODS environments including repositories, job servers, patching, user roles, and audit compliance.
+• Built and maintained data marts and validation reports in SAP IDT/WEBI to support downstream analytics teams.
+• Collaborated with Snowflake consumers to tune queries and resolve data quality issues.
+
+Raise-to-Cloud Modernization
+• Migrated existing SAP BODS workflows to AWS Glue (PySpark) with modularized workflow logic.
+• Engineered Oracle-to-Snowflake migration using SAP Workbench; replaced fragile FTP jobs with event-driven S3 ingestion.
+• Implemented CI/CD-friendly pipeline structures and version control integration.
+• Delivered nearly 50 percent cost savings and up to 80 percent faster reporting times through optimized compute usage and partitioning.
+
+Leadership and Governance
+• Served as Project Lead for a two-person team; oversaw backlog planning, risk management, and vendor coordination.
+• Managed stakeholder communication and sprint governance, ensuring timely delivery under compliance.
+• Built ServiceNow dashboards to monitor incidents, SLAs, and KPIs.
+• Authored standard operating procedures for production hygiene, escalation, and code promotion workflows.
+• Defined code review and release protocols to reduce mean time to recover and operational risk.
+
+Impact
+• Established a cloud-first, governed analytics platform improving reliability and performance across Carrier’s enterprise systems.
+• Standardized engineering practices that improved visibility, auditability, and delivery predictability.
+
+Prajwal's second Job was as Associate Data Engineer at TresVista Analytics in Pune India
+Duration of this job was Oct 2023 – Aug 2024 and the client was CPPIB (Canada Pension Planning Investment Board)
+
+Overview
+Supported the Canada Pension Plan Investment Board (CPPIB) by building and managing scalable data pipelines and automated analytics workflows to integrate alternative data sources into a governed, cloud-based environment.
+
+Data Ingestion and ETL
+• Integrated vendor feeds including Placer.ai (mobility), Sensor Tower and Similarweb (application performance), S&P Global, Visible Alpha, and Earnest Analytics (financial and transactional data).
+• Built metadata-driven ingestion with schema harmonization and dynamic source onboarding using Databricks (PySpark).
+• Developed reusable transformation modules and orchestrated pipelines via Apache Airflow.
+• Implemented AWS SQS/SNS/S3 event triggers for automated retries and error alerts.
+• Reduced ingestion latency by approximately 50 percent through improved partitioning, checkpointing, and backfill strategies.
+
+Automation and Optimization
+• Automated recurring analyst workflows using Python, Excel VBA, and Power Automate, cutting manual effort by roughly 70 percent and reducing dependency on specific individuals.
+• Standardized validation rules for row counts, schema drift, and data freshness to maintain quality across vendors.
+• Designed lineage and monitoring hooks for traceability and governance.
+• Documented operational runbooks and escalation procedures.
+
+Client Engagement and Governance
+• Collaborated with investment stakeholders to define KPIs, SLAs, and data validation standards.
+• Managed a two-person analytics team, facilitating stand-ups, sprint reviews, and hiring evaluations.
+• Proposed architecture improvements addressing vendor API rate limits, delta ingestion, and sandbox/production separation.
+
+Impact
+• Delivered a robust, automated data ecosystem supporting consistent and reliable alternative-data analytics.
+• Achieved 70 percent reduction in manual reporting effort and 50 percent faster ingestion cycles.
+• Enhanced team efficiency, stakeholder confidence, and overall data reliability for CPPIB research teams.
+
+
+Prajwal's 3rd and the latest job is as Research Assistant at LINC Lab in San Diego State University
+And the duration is Feb 2025 – Present
+
+Overview
+Prajwal works at the intersection of large language models, healthcare, and biosignal analytics. His role involves two concurrent research initiatives:
+
+1. A knowledge-grounded mental health chatbot using KB-aligned LLMs (Knowledge Base Augmented Language Models).
+2. A multimodal biosignal modeling pipeline for predicting core temperature to ensure occupational safety.
+   Both efforts emphasize reproducibility, interpretability, and uncertainty estimation in machine-learning workflows.
+
+Mental Health Chatbot (Research Landscape)
+• Fine-tuned LLaMA using the KBLaM framework to ground dialogue in structured psychological knowledge.
+• Designed domain-specific prompts and scenario banks to evaluate empathy, contextual relevance, and safety.
+• Developed a multilingual, privacy-aware prototype targeting low-resource mobile environments used in construction and fieldwork contexts.
+• Implemented strict safety policies, guardrails, and content filters to ensure ethical and responsible AI behavior.
+• Authored qualitative and quantitative rubrics for conversational evaluation and designed ablation plans to isolate the contribution of KB grounding.
+
+Core Temperature Prediction from Biosignals
+• Designed and trained MLP, LSTM, and LagMLP models with temporal attention to predict human core temperature from biosignals (PPG, ECG, EDA).
+• Engineered temporal windows, normalization schemes, and signal-quality filters to handle real-world noise.
+• Achieved roughly 25 percent reduction in mean absolute error compared to baseline regressors.
+• Applied WGAN-based data augmentation and Monte Carlo Dropout for uncertainty quantification and robustness.
+• Evaluated cross-subject generalization with Leave-One-Subject-Out cross-validation.
+• Identified fairness and domain-shift concerns and proposed mitigation strategies.
+
+Impact
+• Advanced academic understanding of knowledge-grounded LLMs for mental health and biosignal-based ML for safety applications.
+• Demonstrated a feasible, interpretable ML pipeline with reproducible documentation suitable for clinical and industrial collaborations.
+
+
+
+Combined Skills Summary
+ETL Development and Automation: Databricks (PySpark), AWS Glue, SAP BODS, Apache Airflow, Power Automate, Tidal Automation, Excel VBA.
+Cloud and Data Platforms: AWS (S3, Glue, Redshift, Lambda, Athena, RDS, DynamoDB, CloudWatch, SQS/SNS), Snowflake, Azure Cloud, Google Firebase, SQL Server, MongoDB.
+Machine Learning and MLOps: Scikit-learn, PyTorch, TensorFlow, Hugging Face Transformers (LLaMA and KBLaM), WandB, MLP, LSTM, GAN/WGAN, LagMLP, TabTransformer.
+Programming: Python, SQL, C/C++, Java, R, JavaScript, HTML, and CSS.
+Visualization and Analytics: Tableau, Power BI, ArcGIS, Draw.io.
+Collaboration and Tools: Git, JIRA, Notion, ServiceNow, Jupyter Hub, DBeaver.

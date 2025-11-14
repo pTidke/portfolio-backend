@@ -1,0 +1,80 @@
+1. Wildfire Risk Prediction Using ML and Spatiotemporal Features
+   A spatiotemporal machine-learning pipeline built to forecast wildfire-prone zones in California by integrating NDVI, ERA5 weather data, land-cover rasters, and NASA satellite fire detections.
+   Description
+   Wildfires devastate California annually. The project designed a scalable ML system that unifies heterogeneous environmental data sources into a single analytics pipeline to generate actionable risk maps for early warning and resource allocation. Forecasting wildfire risk required handling large multi-source data and capturing temporal and seasonal dependencies for local-level reliability.
+   Data and Tools
+   Data: NASA FIRMS active-fire detections, ERA5 and Meteostat weather data, NDVI time series, and land-cover rasters.
+   Tools: Python, PyTorch, Scikit-learn, GeoPandas, Rasterio, CatBoost, XGBoost, FT-Transformer, and ArcGIS.
+   Approach
+   • Collected and aligned over 500,000 samples through raster sampling, temporal alignment, and spatial joins.
+   • Engineered features such as NDVI trends, vegetation stress indicators, wind speed, humidity, and seasonal tags.
+   • Trained multiple models: Random Forest, CatBoost, and XGBoost baselines, plus neural models (MLP and FT-Transformer).
+   • Implemented feature importance analysis and clustering for interpretability; produced geo-aggregated risk maps in ArcGIS.
+   Results
+   • Achieved about 71.7 percent F1 score with Random Forest and CatBoost on Fire Radiative Power risk classification.
+   • Key predictors included NDVI, wind speed, and seasonal cycles.
+   Impact
+   Demonstrated how ML-driven geospatial analytics can enhance early-warning systems, inform suppression planning, and improve community readiness.
+
+2. Medi-vu: Geographic Healthcare and Disease Analysis
+   A geospatial decision-support platform connecting healthcare capacity and disease burden to reveal underserved areas in California.
+   Description
+   Medi-vu helps policymakers and public-health teams visualize where healthcare capacity lags behind disease mortality, improving equity in planning and resource allocation. Prior to this, no integrated dashboard existed to correlate hospital capacity, provider networks, and mortality trends.
+   Data and Tools
+   Data: Hospital capacity, Medi-Cal provider networks, disease-specific mortality rates, population data.
+   Tools: Databricks (PySpark), Python, Tableau, ArcGIS, and Excel.
+   Approach
+   • Processed over one million records in PySpark and standardized across multiple data sources.
+   • Computed healthcare-access scores combining provider density, bed availability, population, and mortality.
+   • Built interactive Tableau and ArcGIS dashboards with spatial filters and dynamic layers.
+   • Implemented region-ranking for prioritization and investment targeting.
+   Results
+   • Identified more than five regions with high disease burden and low healthcare access.
+   • Automated ETL pipelines cut manual data preparation time and improved refresh frequency.
+   Impact
+   Empowered health agencies with real-time visualization for equitable investment and intervention strategies.
+
+3. TrafficSensAI: Predictive Traffic Accident Analysis Tool
+   A full-stack ML and geospatial platform that clusters accident hotspots and predicts severity to support proactive road-safety planning.
+   Description
+   TrafficSensAI anticipates where and how severely accidents may occur, enabling cities to deploy preventive measures. Traditional safety reports were purely historical; this system predicts future risk and presents findings through interactive mapping.
+   Data and Tools
+   Data: More than ten thousand historical accident records combined with weather, infrastructure, and temporal features.
+   Tools: Python, Pandas, Scikit-learn, DBSCAN, Random Forest, ArcGIS, React.js, and Flask.
+   Approach
+   • Applied DBSCAN clustering to identify persistent hotspot corridors.
+   • Trained Random Forest classifiers on engineered contextual features (time of day, weather, road type).
+   • Built a React.js front end with Flask APIs providing responses under 500 milliseconds.
+   • Used ArcGIS to generate heatmaps and “what-if” filters for spatial exploration.
+   Results
+   • Reached about 82 percent accuracy in severity classification.
+   • Produced actionable hotspot clusters used for enforcement and infrastructure planning.
+   Impact
+   Delivered a data-driven framework for municipal safety programs, guiding targeted interventions and infrastructure redesign.
+
+4. Enhancing Tabular Anomaly Detection via WGAN and Transformers
+   A research study examining whether WGAN-GP data augmentation improves anomaly detection performance in imbalanced tabular datasets.
+   Description
+   Anomalies are rare and difficult to model. This study investigated whether synthetic minority-class samples generated via WGAN-GP can enhance classical and neural anomaly detectors while retaining interpretability.
+   Data and Tools
+   Data: Sparse tabular biological datasets.
+   Tools: PyTorch, Scikit-learn, WGAN-GP, TabTransformer, Autoencoders, OC-SVM, and Deep SVDD.
+   Approach
+   • Designed a class-conditional WGAN-GP with diversity and feature-matching loss terms.
+   • Benchmarked traditional (OC-SVM, Deep SVDD) and neural (MLP, LSTM, TabTransformer) detectors.
+   • Incorporated attention-based feature attributions for interpretability.
+   Results
+   • Achieved 20 to 30 percent improvement in anomaly detection accuracy under extreme imbalance.
+   • Noted the largest gains for classical detectors augmented with GAN-generated samples.
+   Impact
+   Extended anomaly detection capabilities to low-prevalence domains such as healthcare, finance, and cybersecurity.
+
+5. LINC Research Lab Website
+   A static React website for the LINC research lab at San Diego State University, built and maintained as part of ongoing research assistant responsibilities.
+   Description
+   Developed a responsive and accessible site presenting lab publications, team profiles, and project summaries. Implemented optimized builds for fast loading and integrated analytics tracking.
+   Tools: React.js, HTML, CSS, JavaScript, and Netlify hosting.
+   Impact
+   Improved the visibility and reach of the LINC research group, providing an accessible resource for collaborators and visitors.
+
+Total 5 academic projects.

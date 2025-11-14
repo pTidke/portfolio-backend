@@ -1,0 +1,150 @@
+# **PRAJWAL TIDKE — MASTER PROFILE FACTS**
+
+## **PROFILE SUMMARY**
+
+Prajwal Tidke is a Data Engineer and AI Researcher with over five years of professional experience in data engineering, analytics, and machine learning.
+He is pursuing a Master of Science in Data Science at **San Diego State University (Aug 2024 – May 2026)** with a GPA of 4.0 / 4.0 and works as a **Research Assistant at the LINC Lab**.
+His research focuses on (1) a knowledge-grounded mental health chatbot using KB-aligned LLMs (KBLaM framework) and (2) core-temperature prediction from multimodal biosignals for occupational-safety applications.
+He emphasizes reproducibility, interpretability, and uncertainty estimation in ML workflows.
+
+Outside work and research, Prajwal enjoys photography (Instagram [@clickoftime](https://www.instagram.com/clickoftime)), hiking, traveling, and playing chess.
+Professional links — [LinkedIn](https://www.linkedin.com/in/ptidke9)  |  [GitHub](https://github.com/pTidke)
+
+---
+
+## **EMPLOYMENT HISTORY**
+
+### **1. LTIMindtree  |  Senior Data Engineer  |  Pune, India  |  Jul 2020 – Oct 2023**
+
+**Client:** Carrier Global Corporation (USA)
+
+**Overview**
+Led engineering and modernization for Carrier Global’s enterprise data warehouse, including ETL pipeline design, cloud migration, and governance.
+
+**Key Responsibilities & Results**
+• Developed centralized ETL in SAP BODS integrating SAP ECC, HANA, Oracle, SQL Server, and flat files.
+• Implemented robust error handling, restartability, and validation routines.
+• Administered BODS environments (repositories, job servers, patching, user roles, audit compliance).
+• Migrated workflows to **AWS Glue (PySpark)** with modular logic and event-driven S3 ingestion.
+• Converted Oracle → Snowflake using SAP Workbench; integrated CI/CD version control.
+• Delivered ~50 % cost savings and ~80 % faster reporting.
+• Built ServiceNow dashboards for incident and SLA tracking.
+• Led a 2-person team for Carrier Global’s Raise-to-Cloud program.
+
+---
+
+### **2. TresVista Analytics  |  Associate Data Engineer  |  Pune, India  |  Oct 2023 – Aug 2024**
+
+**Client:** Canada Pension Plan Investment Board (**CPPIB**)
+
+**Overview**
+Supported CPPIB investment analytics by building and automating scalable data pipelines and analytics workflows in a governed cloud environment.
+
+**Key Responsibilities & Results**
+• Integrated vendor feeds (Placer.ai, Sensor Tower, Similarweb, S&P Global, Visible Alpha, Earnest Analytics).
+• Developed metadata-driven ingestion in **Databricks (PySpark)** and orchestrated with **Apache Airflow**.
+• Implemented AWS SQS/SNS/S3 event triggers for reliability and alerting.
+• Reduced ingestion latency by ≈ 50 %.
+• Automated reporting via Python, Excel VBA, and Power Automate (≈ 70 % manual effort reduction).
+• Standardized validation rules and lineage monitoring.
+• Defined KPIs and SLAs with stakeholders; managed 2-person analytics team.
+
+---
+
+### **3. LINC Lab — San Diego State University  |  Research Assistant  |  Feb 2025 – Present**
+
+**Research Areas**
+
+1. **Knowledge-Grounded Mental Health Chatbot** — fine-tuned LLaMA with KBLaM for psychological knowledge grounding.
+   • Built multilingual privacy-aware prototype for low-resource mobile settings.
+   • Defined evaluation rubrics for empathy, context, and safety.
+2. **Core Temperature Prediction from Biosignals** — trained MLP, LSTM, LagMLP models on PPG/ECG/EDA signals.
+   • Achieved ≈ 25 % MAE reduction vs. baseline; used WGAN augmentation + Monte Carlo Dropout.
+
+**Impact**
+Advanced research on knowledge-grounded LLMs for mental health and biosignal-driven safety monitoring.
+
+---
+
+## **PROJECT PORTFOLIO (5 Academic Projects)**
+
+### **1. Wildfire Risk Prediction Using ML & Spatiotemporal Features**
+
+Spatiotemporal ML pipeline forecasting wildfire-prone zones in California.
+**Data:** NASA FIRMS, ERA5, Meteostat, NDVI, Land Cover.
+**Tools:** Python, PyTorch, Scikit-learn, GeoPandas, Rasterio, CatBoost, XGBoost, FT-Transformer, ArcGIS.
+**Result:** ≈ 71.7 % F1 score on FRP classification; top predictors NDVI & wind speed.
+**Impact:** Supports early warning and resource allocation.
+
+---
+
+### **2. Medi-vu — Geographic Healthcare & Disease Analysis**
+
+Geospatial dashboard linking healthcare capacity with disease burden in California.
+**Data:** Hospital capacity, Medi-Cal provider networks, mortality data.
+**Tools:** Databricks (PySpark), Python, Tableau, ArcGIS, Excel.
+**Result:** Identified ≥ 5 regions with low access; automated ETL reduced manual prep.
+**Impact:** Enabled data-driven health investment decisions.
+
+---
+
+### **3. TrafficSensAI — Predictive Traffic Accident Analysis**
+
+Full-stack ML + geospatial tool for accident severity prediction.
+**Data:** 10 k + historical records + weather & infrastructure data.
+**Tools:** Python, Pandas, Scikit-learn, DBSCAN, Random Forest, ArcGIS, React.js, Flask.
+**Result:** ~82 % accuracy on severity classification.
+**Impact:** Helped city planning teams target safety interventions.
+
+---
+
+### **4. Enhancing Tabular Anomaly Detection via WGAN & Transformers**
+
+Explored WGAN-GP augmentation for imbalanced tabular data.
+**Tools:** PyTorch, Scikit-learn, WGAN-GP, TabTransformer, Autoencoders, OC-SVM, Deep SVDD.
+**Result:** 20–30 % improvement in detection under severe imbalance.
+**Impact:** Extended anomaly detection for healthcare and finance domains.
+
+---
+
+### **5. LINC Research Lab Website**
+
+Static React site for the SDSU LINC Lab.
+**Tools:** React.js, HTML, CSS, JavaScript, Netlify.
+**Impact:** Improved lab visibility and publication access.
+
+---
+
+## **EDUCATION**
+
+### **San Diego State University (USA)**
+
+Master of Science in Data Science | Aug 2024 – May 2026 | GPA 4.0 / 4.0
+Coursework: Deep Learning, Data Mining, Big Data Engineering, Statistical Learning, Data Visualization, AI & Machine Learning, Cloud Computing, Cybersecurity, Natural Language Processing.
+
+### **IIITDM Jabalpur (India)**
+
+Bachelor of Technology in Computer Science & Engineering | Aug 2016 – May 2020 | GPA 3.2 / 4.0
+Coursework: Data Structures, Algorithms, Database Systems, Operating Systems, Computer Networks, Software Engineering, OOP, Web Technologies, Cryptography & Network Security.
+
+---
+
+## **TECHNICAL SKILLS**
+
+**ETL & Automation:** Databricks (PySpark), AWS Glue, SAP BODS, Apache Airflow, Power Automate, Tidal Automation, Excel VBA.
+**Cloud & Data Platforms:** AWS (S3, Glue, Redshift, Lambda, Athena, RDS, DynamoDB, SQS/SNS, CloudWatch), Snowflake, Azure, Google Firebase, SQL Server, MongoDB.
+**Machine Learning & MLOps:** Scikit-learn, PyTorch, TensorFlow, Hugging Face Transformers (LLaMA + KBLaM), WandB, MLP, LSTM, GAN/WGAN, LagMLP, TabTransformer.
+**Programming Languages:** Python, SQL, C/C++, Java, R, JavaScript, HTML + CSS.
+**Visualization & Analytics:** Tableau, Power BI, ArcGIS, Draw.io.
+**Tools & Collaboration:** Git, JIRA, Notion, ServiceNow, Jupyter Hub, DBeaver.
+
+---
+
+## **PERSONAL DETAILS**
+
+**Hobbies:** Photography, Hiking, Traveling, Chess
+**Photography Handle:** [clickoftime](https://www.instagram.com/clickoftime)
+**LinkedIn:** [linkedin.com/in/ptidke9](https://www.linkedin.com/in/ptidke9)
+**GitHub:** [github.com/pTidke](https://github.com/pTidke)
+
+---

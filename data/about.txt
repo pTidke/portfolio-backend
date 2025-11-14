@@ -1,0 +1,23 @@
+Prajwal Tidke — Data Engineer & AI Researcher
+
+Prajwal Tidke is a Data Engineer and AI Researcher who builds systems that combine robust data engineering with applied machine learning to solve real-world problems in analytics, automation, and healthcare. He is pursuing an M.S. in Data Science at San Diego State University (Aug 2024 – May 2026; GPA 4.0) and works as a Research Assistant in the LINC Lab. His research focuses on two active tracks: (1) a knowledge-grounded mental health chatbot that explores empathetic, safe responses using KB-aligned LLMs, and (2) core temperature prediction from multimodal biosignals for occupational safety. Across both threads, he emphasizes rigorous methodology, uncertainty and interpretability, and reproducible pipelines.
+
+Before graduate school, Prajwal spent more than 5 years delivering end-to-end ETL and reporting systems for enterprise clients. At TresVista Analytics, he supported CPPIB investment analytics by building scalable, metadata-driven ingestion and transformation pipelines in Databricks (PySpark) orchestrated with Apache Airflow, cutting ingestion latency by about 50% and automating recurring reporting with Python, Excel/VBA, and Power Automate to reduce manual effort by about 70%. Previously at LTIMindtree, he led engineering for Carrier Global’s data warehouse and cloud modernization, developing SAP BODS pipelines across SAP ECC, HANA, Oracle, SQL Server, and Snowflake, administering BODS under governance, and migrating legacy workflows to AWS Glue (PySpark) and Snowflake to achieve approximately 50% cost savings and roughly 80% faster reporting.
+
+Prajwal balances engineering discipline with machine-learning depth: he writes clean, governed, observable pipelines; defines evaluation rubrics that capture empathy, relevance, and safety in LLM systems; and designs experiments that measure generalization, fairness, and uncertainty in biosignal models. His toolkit spans Python, SQL, PySpark, Airflow, SAP BODS, AWS Glue, Snowflake, Tableau, Power BI, ArcGIS, PyTorch, TensorFlow, and Hugging Face.
+
+Outside work and research, he is a photographer (Instagram: @clickoftime, [https://www.instagram.com/clickoftime](https://www.instagram.com/clickoftime)), and he enjoys hiking, traveling, and playing chess. He shares professional updates on LinkedIn ([https://www.linkedin.com/in/ptidke9](https://www.linkedin.com/in/ptidke9)) and open-sources selected work on GitHub ([https://github.com/pTidke](https://github.com/pTidke)).
+
+Education
+1 San Diego State University (USA), Master of Science in Data Science, Aug 2024 – May 2026, GPA 4.0 / 4.0
+Relevant coursework: Deep Learning; Data Mining; Big Data Engineering; Statistical Learning; Data Visualization; AI and Machine Learning; Cloud Computing; Cybersecurity; Natural Language Processing.
+2 IIITDM Jabalpur (India), Bachelor of Technology in Computer Science and Engineering, Aug 2016 – May 2020, GPA 3.2 / 4.0
+Relevant coursework: Data Structures; Algorithms; Database Systems; Operating Systems; Computer Networks; Software Engineering; Object-Oriented Programming; Web Technologies; Cryptography and Network Security.
+
+Skills Overview
+1 ETL Development and Automation: Databricks (PySpark); AWS Glue; SAP BODS; Apache Airflow; Power Automate; Tidal Automation; Excel VBA.
+2 Cloud and Data Platforms: AWS (S3, Glue, Redshift, Lambda, Athena, RDS, DynamoDB, SQS/SNS, CloudWatch); Snowflake; Azure; Google Firebase; SQL Server; MongoDB.
+3 Machine Learning and MLOps: Scikit-learn; PyTorch; TensorFlow; Hugging Face Transformers (LLaMA and KBLaM); Weights and Biases; MLP; LSTM; GAN/WGAN; LagMLP; TabTransformer.
+4 Programming Languages: Python; SQL; C/C++; Java; R; JavaScript; HTML and CSS.
+5 Visualization and Analytics: Tableau; Power BI; ArcGIS; Draw.io.
+6 Tools and Collaboration: Git; JIRA; Notion; ServiceNow; Jupyter Hub; DBeaver.
