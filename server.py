@@ -79,6 +79,13 @@ def health():
     """Simple health check endpoint."""
     return {"status": "ok"}
 
+@app.get("/ping")
+def ping():
+    """
+    Lightweight endpoint used by the frontend to wake up the Render container.
+    """
+    return {"message": "pong"}
+
 
 @app.post("/ask")
 @limiter.limit("10/minute;60/hour")
